@@ -12,7 +12,7 @@ const ProgressBar = [
 ]
 
 const PrepareSign = () => {
-    const [form, setForm] = useState(1)
+    const [form, setForm] = useState(3)
     const [data, setData] = useState({
         document: [],
         recipients: [

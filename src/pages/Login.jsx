@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <div className="bg-white">
             <main className="min-h-screen flex justify-center mx-auto">
-                <div className="w-1/2 bg-blue-600 hidden lg:block relative">
+                <div className="w-1/2 bg-red-600 hidden lg:block relative">
                     <div className="flex items-center justify-center w-full h-full">
                         <img src={ Logo } alt="logo"/>
                     </div>
@@ -24,8 +24,8 @@ const Login = () => {
                         </div>
                         <form action="">
                             <div>
-                                <label htmlFor="username">NPM, Email, atau Username</label>
-                                <div className="flex items-center mt-2 w-full rounded-lg border border-gray-400 focus-within:shadow-lg focus-within:border-blue-600">
+                                <label htmlFor="username">Username</label>
+                                <div className="flex items-center mt-2 w-full rounded-lg border border-gray-400 focus-within:shadow-lg focus-within:border-red-600">
                                 <div className="flex items-center justify-center pl-6">
                                     <FaUser className="w-6 h-6 pointer-events-none"/>
                                 </div>
@@ -43,7 +43,7 @@ const Login = () => {
                             </div>
                             <div className="pt-6">
                                 <label htmlFor="password">Kata Sandi</label>
-                                <div className="flex items-center mt-2 w-full rounded-lg border border-gray-400 focus-within:shadow-lg focus-within:border-blue-600">
+                                <div className="flex items-center mt-2 w-full rounded-lg border border-gray-400 focus-within:shadow-lg focus-within:border-red-600">
                                     <div className="flex items-center justify-center pl-6">
                                         <FaLock className="w-6 h-6 pointer-events-none"/>
                                     </div>
@@ -65,9 +65,9 @@ const Login = () => {
                                     type="submit" 
                                     className="
                                         py-4 px-8 text-white 
-                                        bg-blue-600 hover:bg-blue-700 rounded-lg 
+                                        bg-red-600 hover:bg-red-700 rounded-lg 
                                         shadow-lg w-full focus:ring-4
-                                        focus:ring-blue-100 focus:outline-none
+                                        focus:ring-red-100 focus:outline-none
                                     "
                                 >
                                     Masuk
